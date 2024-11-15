@@ -23,5 +23,7 @@ const bands = [
   {
     let listItm = document.createElement("li")
     listItm.innerText = item
+	      list.setAttribute("id", "bands")
+
     list.appendChild(listItm)
   }
